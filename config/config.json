@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pnp-js-add-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnpJsAddForm/PnpJsAddFormWebPart.js",
+          "manifest": "./src/webparts/pnpJsAddForm/PnpJsAddFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PnpJsAddFormWebPartStrings": "lib/webparts/pnpJsAddForm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
